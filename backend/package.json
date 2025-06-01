@@ -4,7 +4,7 @@
   "description": "Backend for the blog platform",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "npm run build && node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "test": "jest"
