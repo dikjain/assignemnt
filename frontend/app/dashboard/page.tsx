@@ -4,8 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import axios from 'axios';
-import { Post } from '@/types';
-import { useAuth } from '@/context/AuthContext';
+import { Post } from '../../types';
+import { useAuth } from '../../context/AuthContext';
 import { motion } from 'framer-motion';
 
 // Disable caching for this page
