@@ -26,11 +26,9 @@ A modern blog platform where users can create, read, and manage their blog posts
 
 ## Getting Started
 
-1. Clone the repository
-```bash
+1. Clone the repository```bash
 git clone <repository-url>
-cd blog-platform
-```
+cd blog-platform```
 
 2. Install dependencies
 ```bash
@@ -49,6 +47,8 @@ npm install
 cp .env.example .env
 # Edit .env with your MongoDB and JWT settings
 ```
+
+MONGODB_URI in .env is required .
 
 4. Start the development servers
 ```bash
@@ -99,3 +99,4 @@ blog-platform/
 ## License
 
 MIT 
+
